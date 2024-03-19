@@ -21,5 +21,12 @@ public class TestEmployee {
 		emp1.display();
 		System.out.println("-----------------------------");
 		emp2.display();
+		System.out.println("---- Creating object on Employee using parameterized constructor ----");
+		Employee emp3 = new Employee(103, "Alex", 50000.0);
+		Employee emp4 = new Employee(104, "Brad", 450000.0);
+		emp3.display();
+		emp4.display();
+		System.out.println("--------------------------");
+		Employee.companyAddress();
 	}
 }
